@@ -1,0 +1,25 @@
+.calculator{
+  border: 1px solid black;  
+  padding: 10px;
+  border-radius: 15px;
+  cursor:nwse-resize;
+}
+
+.button Button{
+    width: 60px;
+    border: 2px solid;
+    margin: 7px;
+    text-align: center;
+    font-weight: bold;
+}
+.inputText input{
+    width: 272px;
+    height: 30px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.equal{
+    background-color: rgb(90, 188, 233);
+}

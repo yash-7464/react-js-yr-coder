@@ -1,0 +1,74 @@
+.heder-navbar {
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.dash-card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 250px;
+    /* width: 210px; */
+    margin-top: 10px;
+    gap: 20px;
+    margin: 5px;
+}
+.listing-card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+    width: 100%; 
+    /* margin-top: px; */
+    padding: 10px;
+}
+.container-card{
+    width: 1480px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.check-btn {
+    width: 150px;
+}
+
+.container-auth-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+}
+
+.card-auth-body{
+    width: 350px;
+}
+.btn-auth{
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+.holidays-card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form {
+    font-weight:500;
+    padding-left: 100px;
+}

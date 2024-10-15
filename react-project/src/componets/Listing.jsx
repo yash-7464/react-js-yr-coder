@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import $ from 'jquery';
 import 'datatables.net'; // Import DataTables
@@ -7,7 +7,6 @@ const Listing = () => {
   const [data, setData] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
-  // const tableRef = useRef(null);
   const tableInstance = useRef(null);
 
   const id = localStorage.getItem('userId');
